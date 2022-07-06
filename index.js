@@ -12,10 +12,10 @@ btn.addEventListener('click',function(e){
     console.log(body);
     Email.send({
         Host : "smtp.gmail.com",
-   		Username : "pathakdeep090@gmail.com",
-    	Password : "qeqzgmcjhjzawfkt",
+   		Username : "youremail@gmail.com",
+    	password : "xyz",
     	To : myemail,
-    	From : "pathakdeep090@gmail.com",
+    	From : "youremail@gmail.com",
     	Subject : "Reservation Details",
     	Body : body
     }).then(
