@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pub website</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <a href="/" title="Return to Home Page" id="logo">
+        <img src="logo.png" alt="Pub time">
+      </a>
+    </div>
+    <div id="content" class="content-block">
+      <h1>The best craft beer in Barcelona!</h1>
+      <p>
+        Bienvenido, amigos!
+        El Amigo Pub & Grill is a brewhouse, a bar & restaurant where beer is produced in-house. We not only serve
+        products of excellent quality, but also introduce those curious to the manufacturing process, through guided
+        visits to our beer workshop. Our menu is inspired by international cuisine and takes you on a culinary journey
+        through Asia and America.
+      </p>
+    </div>
+    <div id="reserve" class="content-block">
+      <h2>Make a Reservation</h2>
+      <p>Get your spot before somebody else does!</p>
+      <form>
+        <label for="myname">Your Name</label>
+        <input type="text" id="myname" placeholder="Bob smith">
+
+        <label for="myemail"> Your Email</label>
+        <input type="text" id="myemail" placeholder="abc@gmail.com">
+
+        <label for="mytime">Your Time</label>
+        <input type="text" id="mytime" placeholder="Tomorrow at 10 pm">
+
+        <button id="myjs1">Reserve</button>
+      </form>
+    </div>
+    <div id="footer" class="content-block">
+      <p>Copyright &copy; Deepak pathak</p>
+    </div>
+  </div>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="index.js"></script>
+
+</html>

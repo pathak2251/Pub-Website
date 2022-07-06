@@ -1,0 +1,82 @@
+body {
+    background: black url('https://images.unsplash.com/photo-1541795433473-343da26675cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') top center repeat-y;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 40px;
+    color: #333;
+    -webkit-font-soothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content-block {
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#content {
+    border: solid 10px black;
+    border-radius: 100px 30px 100px 30px;
+}
+
+#reserve {
+    border: solid 10px white;
+    border-radius: 30px;
+}
+
+#footer {
+    background: black;
+    color: white;
+}
+
+form {
+    text-align: left;
+    width: 300px;
+    margin: 20px auto 0;
+}
+
+form label {
+    display: block;
+    width: 290px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+form input {
+    display: block;
+    font-family: italic;
+    border: none;
+    font-size: 20px;
+    width: 290px;
+    padding: 5px;
+    margin: 0px 0px 10px;
+    -webkit-font-soothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#myjs1 {
+    background-color: black;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 4px;
+}
